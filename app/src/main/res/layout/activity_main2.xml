@@ -20,11 +20,17 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="some text"/>
+        android:text="This value is stored in shared pref"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"/>
+
+    <SeekBar
+        android:id="@+id/seekBarChangeSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
